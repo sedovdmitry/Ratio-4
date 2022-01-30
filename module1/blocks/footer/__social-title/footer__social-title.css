@@ -1,0 +1,13 @@
+.footer__social-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #212353;
+}
+
+@media screen and (max-width: 750px) {
+    .footer__social-title {
+       text-align: center;
+    }
+}

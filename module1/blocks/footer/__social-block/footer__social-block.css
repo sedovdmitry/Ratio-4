@@ -1,0 +1,5 @@
+.footer__social-block {
+    max-width: 178px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,17 @@
+.cards__box {
+    width: 220px;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .cards__box {
+        height: 260px;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,9 @@
+.slide__button-inactive {
+    border: none;
+    background-color: transparent;
+    overflow: hidden;
+    outline: none;
+    background: url(../../../images/button-inactive.png) no-repeat center center;
+    width: 20px;
+    height: 14px;
+}

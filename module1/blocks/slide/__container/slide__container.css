@@ -1,0 +1,13 @@
+.slide__container {
+    margin: 0;
+    padding: 0;
+    width: 1578px;
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .slide__container {
+        gap: 10px;
+    }
+}

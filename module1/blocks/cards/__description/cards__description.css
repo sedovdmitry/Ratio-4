@@ -1,0 +1,8 @@
+.cards__description {
+    margin: 0;
+    min-height: 160px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4B5D68;
+}

@@ -1,0 +1,34 @@
+.testimonies {
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    max-width: 1118px;
+    min-height: 709px;
+    border-radius: 50px;
+    background: #9c69e2;
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+}
+
+@media screen and (max-width: 1200px) {
+    .testimonies {
+        max-width: 800px;
+    }
+}
+  
+@media screen and (max-width: 900px) {
+    .testimonies {
+        max-width: 600px;
+        min-height: 650px;
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .testimonies {
+        margin-top: 90px;
+        margin-bottom: 90px;
+       max-width: 300px;
+       min-height: 680px;
+    }
+}

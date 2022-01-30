@@ -1,0 +1,25 @@
+.intro__image {
+    width: 469px;
+    object-fit: contain;
+    object-position: top;
+    margin-left: 16px;
+    transition: .7s;
+}
+
+@media screen and (max-width: 1200px) {
+    .intro__image {
+        width: 350px;
+    }
+}
+  
+@media screen and (max-width: 900px) {
+    .intro__image {
+        margin-left: 0;
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .intro__image {
+        width: 250px;
+    }
+}

@@ -1,0 +1,19 @@
+.features__title {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #212353;
+}
+
+@media screen and (max-width: 900px) {
+    .features__subtitle {
+        font-size: 32px;
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .features__subtitle {
+        font-size: 24px;
+    }
+}

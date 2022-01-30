@@ -1,0 +1,29 @@
+.testimonies__title {
+    margin: 109px 0 88px 93px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .testimonies__title {
+        margin: 93px 0 88px 93px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .testimonies__title {
+        margin: 63px 0 63px 63px;
+        font-size: 32px;
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .testimonies__title {
+        margin: 0 auto;
+        margin-top: 33px;
+        margin-bottom: 33px;
+        font-size: 24px;
+    }
+}

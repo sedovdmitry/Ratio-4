@@ -1,0 +1,25 @@
+.lead {
+    width: 100%;
+    min-height: 564px;
+    position: relative;
+    background: url(../../images/image1.jpg) no-repeat right bottom;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .lead {
+        background-size: 63%;
+    }
+}
+  
+@media screen and (max-width: 900px) {
+    .lead {
+        min-height: 464px;      
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .lead {
+        min-height: 364px;    
+    }
+}

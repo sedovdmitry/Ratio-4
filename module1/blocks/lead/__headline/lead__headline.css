@@ -1,0 +1,30 @@
+.lead__headline {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1118px;
+    min-height: 464px;
+}
+
+@media screen and (max-width: 1200px) {
+    .lead__headline {
+        max-width: 800px;
+        
+    }
+}
+  
+@media screen and (max-width: 900px) {
+    .lead__headline {
+        
+        max-width: 600px;
+        min-height: 364px;
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .lead__headline {
+        min-height: 264px;
+       max-width: 300px;
+    }
+}

@@ -1,0 +1,11 @@
+.slide__gradient {
+    background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #9C69E2;
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}

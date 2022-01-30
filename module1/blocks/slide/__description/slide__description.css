@@ -1,0 +1,35 @@
+.slide__description {
+    margin: 0;
+    margin-left: 190px;
+    max-width: 380px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #4B5D68;
+    height: 130px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+    .slide__description {
+        margin-left: 175px;
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .slide__description {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .slide__description {
+        font-size: 16px;
+        line-height: 29px;
+        max-width: 200px;
+        height: 200px;
+    }
+}

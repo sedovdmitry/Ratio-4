@@ -1,0 +1,10 @@
+.cards__item_image_violet {
+    background: url(../../../../images/violet.png) no-repeat center right;
+}
+
+@media screen and (max-width: 750px) {
+    .cards__item_image_violet {
+        background: url(../../../../images/violet-up.png) no-repeat bottom right;
+        background-size: contain;
+    }
+}

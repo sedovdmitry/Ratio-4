@@ -1,0 +1,19 @@
+.logo_place_footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 220px;
+    background-position: left center;
+    text-decoration: none;
+    text-align: end;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #212353;
+}
+
+@media screen and (max-width: 750px) {
+    .logo_place_footer {
+       min-width: 200px;
+    }
+}

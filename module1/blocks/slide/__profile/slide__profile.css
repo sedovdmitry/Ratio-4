@@ -1,0 +1,26 @@
+.slide__profile {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 60px 0 0 70px;
+}
+
+@media screen and (max-width: 1200px) {
+    .slide__profile {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .slide__profile {
+        margin: 35px 0 30px 0;
+        gap: 40px;
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .slide__profile {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

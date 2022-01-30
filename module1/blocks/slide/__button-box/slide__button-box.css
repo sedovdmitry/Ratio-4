@@ -1,0 +1,5 @@
+.slide__button-box {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}

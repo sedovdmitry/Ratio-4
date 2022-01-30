@@ -1,0 +1,10 @@
+.cards__link {
+    width: 127px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #212353;
+    background: url(../../../images/arrow.png) no-repeat center right;
+    transition: .3s;
+}

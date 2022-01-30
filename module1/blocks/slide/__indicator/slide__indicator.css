@@ -1,0 +1,6 @@
+.slide__indicator {
+    width: 5px;
+    height: 5px;
+    background: #FFFFFF;
+    border-radius: 50%;
+}

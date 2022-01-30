@@ -1,0 +1,4 @@
+.slide__indicator_active {
+    transform: scale(2);
+    background: #f063b8;
+}

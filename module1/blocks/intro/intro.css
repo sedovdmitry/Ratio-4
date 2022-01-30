@@ -1,0 +1,39 @@
+.intro {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    max-width: 1118px;
+    min-height: 560px;
+    border-radius: 50px;
+    background: rgba(240, 99, 184, .15);
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+
+.intro:hover .intro__image {
+    transform: rotateZ(-7deg);
+}
+
+@media screen and (max-width: 1200px) {
+    .intro {
+        max-width: 800px;
+        gap: 45px;
+    }
+}
+  
+@media screen and (max-width: 900px) {
+    .intro {
+        flex-direction: column;
+        max-width: 600px;
+        gap: 0;
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .intro {
+        margin-top: 90px;
+        margin-bottom: 90px;
+        max-width: 300px;
+    }
+}

@@ -1,0 +1,26 @@
+.slide {
+    max-width: 948px;
+    margin-left: 93px;
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+}
+
+@media screen and (max-width: 1200px) {
+    .slide {
+        margin-left: 93px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .slide {
+        margin-left: 63px;
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .slide {
+        margin-left: 13px;
+        gap: 30px;
+    }
+}

@@ -1,0 +1,7 @@
+.features {
+    margin: 0 auto;
+    max-width: 1118px;
+    min-height: 1026px;
+    display: flex;
+    flex-direction: column;
+}

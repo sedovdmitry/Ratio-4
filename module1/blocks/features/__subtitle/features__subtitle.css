@@ -1,0 +1,30 @@
+.features__subtitle {
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #4B5D68;
+    width: 584px;
+}
+
+@media screen and (max-width: 1200px) {
+    .features__subtitle {
+        margin-top: 30px;
+    }
+}
+  
+@media screen and (max-width: 900px) {
+    .features__subtitle {
+        line-height: 25px;
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .features__subtitle {
+        margin-top: 15px;
+        font-size: 14px;
+        width: 300px;
+    }
+}

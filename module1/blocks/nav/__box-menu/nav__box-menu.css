@@ -1,0 +1,20 @@
+.nav__box-menu {
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    width: 231px;
+}
+
+@media screen and (max-width: 900px) {
+    .nav__box-menu {
+        margin-left: 70px;
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .nav__box-menu {
+        margin-left: 40px;
+        width: 150px;
+    }
+}

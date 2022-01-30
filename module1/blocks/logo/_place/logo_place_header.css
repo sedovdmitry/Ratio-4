@@ -1,0 +1,16 @@
+.logo_place_header {
+    width: 49px;
+    background-position: center center;
+}
+
+@media screen and (max-width: 900px) {
+    .logo_place_header {
+        width: 39px;
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .logo_place_header {
+        width: 29px;
+    }
+}

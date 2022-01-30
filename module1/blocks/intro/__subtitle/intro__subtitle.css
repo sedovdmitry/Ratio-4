@@ -1,0 +1,27 @@
+.intro__subtitle {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #4B5D68;
+}
+
+@media screen and (max-width: 1200px) {
+    .intro__subtitle {
+        font-size: 16px;
+        
+    }
+}
+  
+@media screen and (max-width: 900px) {
+    .intro__subtitle {
+        line-height: 25px;
+        text-align: center;
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .intro__subtitle {
+        font-size: 14px;
+    }
+}

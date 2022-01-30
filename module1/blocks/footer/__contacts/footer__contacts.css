@@ -1,0 +1,15 @@
+.footer__contacts {
+    margin: 10px 0 0;
+    width: 200px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: .01em;
+    color: #212353;
+}
+
+@media screen and (max-width: 750px) {
+    .footer__contacts {
+       text-align: center;
+    }
+}

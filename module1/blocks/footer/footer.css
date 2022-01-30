@@ -1,0 +1,17 @@
+.footer {
+    width: 100%;
+    padding-top: 165px;
+    border-top: 2px solid rgba(156, 105, 226, .2);
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        padding-top: 120px;
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .footer {
+        padding-top: 80px;
+    }
+}

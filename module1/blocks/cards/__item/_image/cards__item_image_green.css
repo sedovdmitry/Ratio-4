@@ -1,0 +1,11 @@
+.cards__item_image_green {
+    background: url(../../../../images/green.png) no-repeat center right;
+
+}
+
+@media screen and (max-width: 750px) {
+    .cards__item_image_green {
+        background: url(../../../../images/green-up.png) no-repeat bottom right;
+        background-size: contain;
+    }
+}

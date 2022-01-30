@@ -1,0 +1,24 @@
+.slide__control {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+    .slide__control {
+        max-width: 650px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .slide__control {
+        max-width: 500px;
+    }
+}
+  
+@media screen and (max-width: 750px) {
+    .slide__control {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}

@@ -1,0 +1,25 @@
+.nav__link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    color: #4B5D68;
+    transition: transform .3s;
+}
+
+.nav__link:hover {
+    color: #212353;
+    transform: translateY(-4px);
+    font-weight: 900;
+}
+
+@media screen and (max-width: 750px) {
+    .nav__link {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .nav__link:hover {
+        font-weight: 700;
+    }
+}
