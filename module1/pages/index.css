@@ -1,27 +1,36 @@
 @import url(../vendor/normalize.css);
+/* connecting fonts */
 @import url(../vendor/font/font.css);
+/* general page styles */
 @import url(../blocks/root/root.css);
+/* logo styles */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
-@import url(../blocks/header/header.css);
+/* header and navigation styles */
+import url(../blocks/header/header.css);
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/nav/__box-menu/nav__box-menu.css);
 @import url(../blocks/nav/__link/nav__link.css);
+/* the main body of the page */
 @import url(../blocks/content/content.css);
+/* section lead */
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__headline/lead__headline.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__link/lead__link.css);
+/* section intro */
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__image/intro__image.css);
 @import url(../blocks/intro/__text-box/intro__text-box.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
+/* section features */
 @import url(../blocks/features/features.css);
 @import url(../blocks/features/__title/features__title.css);
 @import url(../blocks/features/__subtitle/features__subtitle.css);
+/* card styles */
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__item/_image/cards__item_image_blue.css);
@@ -33,8 +42,10 @@
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/cards/__link/cards__link.css);
+/* section testimonies */
 @import url(../blocks/testimonies/testimonies.css);
 @import url(../blocks/testimonies/__title/testimonies__title.css);
+/* slider block styles */
 @import url(../blocks/slide/slide.css);
 @import url(../blocks/slide/__title/slide__title.css);
 @import url(../blocks/slide/__profile/slide__profile.css);
@@ -52,6 +63,7 @@
 @import url(../blocks/slide/__button-box/slide__button-box.css);
 @import url(../blocks/slide/__button-inactive/slide__button-inactive.css);
 @import url(../blocks/slide/__button-active/slide__button-active.css);
+/* footer styles */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__social-title/footer__social-title.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
