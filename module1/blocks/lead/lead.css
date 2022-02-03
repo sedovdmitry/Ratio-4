@@ -1,5 +1,6 @@
 .lead {
-    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
     min-height: 564px;
     position: relative;
     background: url(../../images/image1.jpg) no-repeat right bottom;
