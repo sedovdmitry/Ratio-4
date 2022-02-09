@@ -8,6 +8,7 @@
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 /* header and navigation styles */
+/*TODO: здесь ошибка в import - пропущен впереди символ @, из-за этого не подключались стили */
 import url(../blocks/header/header.css);
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/nav/__box-menu/nav__box-menu.css);
@@ -27,10 +28,15 @@ import url(../blocks/header/header.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
 /* section features */
+/* TODO: импортируйте внутренние файлы разделов внутри основного файла (н-р features.css),
+    а уже основной подключайте здесь.
+     Не нужно здесь показывать всю структуру */
 @import url(../blocks/features/features.css);
 @import url(../blocks/features/__title/features__title.css);
 @import url(../blocks/features/__subtitle/features__subtitle.css);
 /* card styles */
+/* TODO: тоже самое, используйте преимущества импортов и скрытия ненужного целиком и полностью
+     Импортируйте внутренние файлы в cards.css, здесь подключайте только cards.css (и с остальными также) */
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__item/_image/cards__item_image_blue.css);
@@ -46,6 +52,8 @@ import url(../blocks/header/header.css);
 @import url(../blocks/testimonies/testimonies.css);
 @import url(../blocks/testimonies/__title/testimonies__title.css);
 /* slider block styles */
+/* TODO: а почему бы не подгружать внутренние файлы стилей слайдов не в ../blocks/slide/slide.css?
+     Зачем показывать здесь всю структуру стилей?  */
 @import url(../blocks/slide/slide.css);
 @import url(../blocks/slide/__title/slide__title.css);
 @import url(../blocks/slide/__profile/slide__profile.css);
@@ -64,6 +72,8 @@ import url(../blocks/header/header.css);
 @import url(../blocks/slide/__button-inactive/slide__button-inactive.css);
 @import url(../blocks/slide/__button-active/slide__button-active.css);
 /* footer styles */
+/* TODO: а почему бы не подгружать внутренние файлы стилей footer'a не в ../blocks/footer/footer.css?
+     Зачем показывать здесь всю структуру стилей?  */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__social-title/footer__social-title.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
