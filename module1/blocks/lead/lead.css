@@ -21,6 +21,12 @@
   
 @media screen and (max-width: 750px) {
     .lead {
-        min-height: 364px;    
+        min-height: 420px;    
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .lead {
+        min-height: 380px;
     }
 }
